@@ -1,5 +1,9 @@
 # Impostor
 
+**Play the public website: [impostor-game-lap7.onrender.com](https://impostor-game-lap7.onrender.com)**
+
+![Impostor website preview](preview.jpg)
+
 A dark tabletop word game for 4–6 players. Each player shares a related word, but one impostor only knows the broad category. Compare the words, discuss, and vote.
 
 ## Play modes
@@ -26,6 +30,8 @@ npm test
 ## Render hosting
 
 Create a Static Site from this repository, using the `main` branch, build command `npm run build`, and publish directory `dist`. A matching Blueprint is included in `render.yaml`.
+
+The live site was deployed on Render as a Static Site from this public repository. Updates can be published using Manual Deploy in the Render dashboard. The direct public-repository connection does not enable automatic deployment; Render requires a Git-provider connection or Blueprint configuration for that.
 
 ## Files
 
