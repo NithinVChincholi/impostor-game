@@ -1,0 +1,26 @@
+/* The evening table: warm ivory text, forest shadows and brass accents. */
+:root{color-scheme:dark;--ink:#eee9d9;--paper:#0c1713;--muted:#b1bcaa;--green:#315d45;--gold:#d3b477;--line:#33473a}
+body{background:radial-gradient(ellipse at 70% 0%,#23382b 0,transparent 48%),#0c1713}
+header{border-color:#33473a}.brand-icon{border-color:#bda36b;color:#dec18b}.brand-dot{color:#d3b477}
+.edition{color:#a5b29d}.eyebrow,.field label{color:#b6c3a9}.live-dot{background:#b8cb9a;box-shadow:0 0 12px #b8cb9a33}
+h1 em{color:#cbb780}.description,.invite p{color:#b2bca9}.invite .small-caps{color:#c1cbb6}
+.mini-cards i{box-shadow:0 12px 25px #0008}
+.game-shell{background:linear-gradient(145deg,#1e3125,#15251c);border-color:#3c503c;box-shadow:0 24px 70px #0003}
+.pill{background:#23372a;border-color:#52634a;color:#d0d9c4}
+input,select{background:#101f17;border-color:#4d6047;color:#eee9d9}input::placeholder{color:#a8b59b;opacity:1}
+.primary{background:#cbb57f;color:#15251c}.primary:hover{background:#e0c995}
+.secondary{background:#304632;color:#eee9d9}.secondary:hover{background:#3c563e}
+.fine-print{color:#a8b59d}.player{background:#1b2d21;border-color:#46563e;box-shadow:0 6px 18px #0003}
+.player.active{box-shadow:0 0 0 2px #d2b87e,0 12px 22px #0005}
+.player-info small{color:#b2bfa4}.player-info .symbol{color:#d3b477}.name-input{background:transparent;border-bottom-color:#637455;color:#f0ead8}
+.stage-box{background:#14241a;border-color:#43583e}.stage-box p{color:#bcc7ae}.clue-form input{background:#0e1d14}
+.error{color:#ffb4a2!important}.section-title span,.muted{color:#b4c2a6}
+.clue-row{border-color:#3a4d35}.clue-row span{color:#d3dcc5}.clue-row small{color:#afbd9e}
+.note-panel{border-color:#40543a}.note-panel>p:not(.small-caps){color:#c6d0b8}.note-panel .small-caps{color:#b9c7a9}.divider{background:#40543a}
+.score-row{color:#d4ddc8}.vote-option{background:#233a29;border-color:#627653;color:#f0ead8}.vote-option:hover{background:#38583a}
+.below{color:#a9b89b}.below b,footer{color:#b8c3ab}.result-number{color:#d9be85}.result-grid>div{border-color:#526548}.result-grid small{color:#bac7aa}
+dialog{background:#17281d;border-color:#738263;color:#eee9d9;box-shadow:0 30px 100px #0009}dialog p,dialog li{color:#c4cfb6}
+dialog::backdrop{background:#030906d9}.secret-card p{color:#d5ddc6}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline-color:#e5c98d}
+.brand{display:inline-flex;align-items:center;gap:12px}.brand-logo{display:block;width:84px;height:49px;flex-shrink:0}
+@media(max-width:760px){.brand{gap:8px;letter-spacing:2px}.brand-logo{width:62px;height:40px}}

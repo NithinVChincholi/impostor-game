@@ -1,0 +1,12 @@
+{
+  "name": "impostor-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An everyday-word game for 4–6 players, with solo practice bots and pass-and-play.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node preview.cjs",
+    "test": "node --test engine.test.mjs",
+    "build": "node --test engine.test.mjs && node --check dist/app.mjs"
+  }
+}
